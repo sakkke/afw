@@ -1,1 +1,9 @@
 #!/bin/bash
+
+declare entrypoint="https://raw.githubusercontent.com/sakkke/afw/main/src"
+
+function afw() {
+  declare filename="$1"
+  declare eval_arg="$(curl "${entrypoint}/${filename}")"
+  eval "${eval_arg}"
+}
