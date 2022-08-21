@@ -1,0 +1,17 @@
+#!/bin/bash
+
+afw vars/basic
+afw vars/users
+
+AFW_PACSTRAP_PACKAGES+=(
+  plasma
+  sudo
+)
+
+AFW_PASSWORDS+=(
+  afw:afw
+)
+
+AFW_SYSTEMD_SERVICES+=(
+  sddm.service
+)
