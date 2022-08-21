@@ -1,4 +1,4 @@
 #!/bin/bash
 
-afw configs/basic
 afw configs/users
+afw configs/basic
