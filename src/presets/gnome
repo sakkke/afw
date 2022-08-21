@@ -8,5 +8,4 @@ afw vars/gnome
 
 afw prompts/device
 
-afw configs/basic
 afw configs/gnome

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 afw vars/basic
+afw vars/users
 
 AFW_PACSTRAP_PACKAGES+=(
   gnome
@@ -13,9 +14,4 @@ AFW_PASSWORDS+=(
 
 AFW_SYSTEMD_SERVICES+=(
   gdm.service
-)
-
-# Users
-AFW_USERS=(
-  afw
 )

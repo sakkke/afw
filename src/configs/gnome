@@ -1,4 +1,4 @@
 #!/bin/bash
 
-afw users
-afw sudo/wheel
+afw configs/basic
+afw configs/users
