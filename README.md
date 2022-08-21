@@ -110,7 +110,7 @@ fi
 afw update-ntp
 afw part
 afw format
-afw mount && trap 'afw umount' EXIT
+afw mount
 afw pacman/update-mirrorlist
 afw pacstrap
 afw update-fstab
@@ -125,4 +125,5 @@ afw grub/install
 afw grub/install-grub_cfg
 afw grub/fix-bootx64_efi
 afw systemd/enable-services
+afw umount
 ```
