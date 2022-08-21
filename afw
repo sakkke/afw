@@ -15,5 +15,6 @@ function afw() {
     declare eval_arg="$(curl -s "${entrypoint}/${filename}")"
   fi
 
+  printf '\e[32m%s\e[m\n' "afw> ${filename}"
   eval "${eval_arg}"
 }
