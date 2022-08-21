@@ -4,6 +4,7 @@ afw vars/basic
 
 AFW_PACSTRAP_PACKAGES+=(
   gnome
+  sudo
 )
 
 AFW_PASSWORDS+=(
