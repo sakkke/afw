@@ -1,9 +1,19 @@
 #!/bin/bash
 
-declare entrypoint="https://raw.githubusercontent.com/sakkke/afw/main/src"
+if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
+  declare entrypoint="${AFW_ENTRYPOINT}"
+else
+  declare entrypoint="https://raw.githubusercontent.com/sakkke/afw/main/src"
+fi
 
 function afw() {
   declare filename="$1"
-  declare eval_arg="$(curl "${entrypoint}/${filename}")"
+
+  if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
+    declare eval_arg="$(cat "${entrypoint}/${filename}")"
+  else
+    declare eval_arg="$(curl "${entrypoint}/${filename}")"
+  fi
+
   eval "${eval_arg}"
 }
