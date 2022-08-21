@@ -1,0 +1,5 @@
+#!/bin/bash
+
+arch-chroot "${AFW_MOUNT_ENTRYPOINT}" "/bin/bash" << !
+ln -fs "/usr/share/zoneinfo/${AFW_TIMEZONE}" /etc/localtime
+!

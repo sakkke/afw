@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for mirror in "${AFW_PACMAN_MIRRORS[@]}"; do
+  printf 'Server = %s\n' "${mirror}"
+done > "/etc/pacman.d/mirrorlist"

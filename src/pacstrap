@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pacstrap "${AFW_MOUNT_ENTRYPOINT}" $(IFS=" " && printf '%s' "${AFW_PACSTRAP_PACKAGES[*]}")

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+arch-chroot "${AFW_MOUNT_ENTRYPOINT}" "/bin/bash" << !
+for line in "${AFW_VCONSOLE_CONF[@]}"; do
+  printf '%s\\n' "\${line}"
+done > "/etc/vconsole.conf"
+!

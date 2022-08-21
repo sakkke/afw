@@ -1,0 +1,3 @@
+#!/bin/bash
+
+umount -R "${AFW_MOUNT_ENTRYPOINT}"
