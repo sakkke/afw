@@ -1,5 +1,5 @@
 #!/bin/bash
 
 arch-chroot "$AFW_MOUNT_ENTRYPOINT" /bin/bash << !
-grub-mkconfig -o "/boot/grub/grub.cfg"
+grub-mkconfig -o /boot/grub/grub.cfg
 !
