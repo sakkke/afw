@@ -12,6 +12,10 @@ fi
 #declare AFW_DEVICE="/dev/sda"
 declare AFW_DEVICE_LABEL="gpt"
 declare AFW_EFI_FILE="/GRUB/grubx64.efi"
+declare -a AFW_FILESYSTEMS=(
+  fat32
+  ext4
+)
 declare AFW_GRUB_BOOTLOADER_ID="GRUB"
 declare AFW_HOSTNAME="afw"
 declare -a AFW_LOCALE_GEN=(
@@ -53,6 +57,7 @@ eval "$(curl "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
 
 afw update-ntp
 afw part
+afw format
 afw mount && trap 'afw umount' "EXIT"
 afw pacman/update-mirrorlist
 afw pacstrap

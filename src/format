@@ -1,0 +1,14 @@
+#!/bin/bash
+
+for ((i = 0; i < ${#AFW_FILESYSTEMS[@]}; i++)); do
+  declare filesystem="${AFW_FILESYSTEMS[i]}"
+
+  declare device="${AFW_DEVICE}$((i + 1))"
+
+  if [[ $filesystem = "fat32" ]]; then
+    mkfs.fat -F 32 "${device}"
+    continue
+  fi
+  
+  "mkfs.${filesystem}" "${device}"
+done
