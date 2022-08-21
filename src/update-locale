@@ -1,5 +1,5 @@
 #!/bin/bash
 
-arch-chroot "${AFW_MOUNT_ENTRYPOINT}" "/bin/bash" << "!"
+arch-chroot "$AFW_MOUNT_ENTRYPOINT" /bin/bash << !
 locale-gen
 !

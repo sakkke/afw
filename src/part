@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sfdisk "${AFW_DEVICE}" << !
-label: ${AFW_DEVICE_LABEL}
+sfdisk "$AFW_DEVICE" << !
+label: $AFW_DEVICE_LABEL
 
-$(for part in "${AFW_PARTS[@]}"; do printf '%s\n' "${AFW_DEVICE}${part}"; done)
+$(for part in "${AFW_PARTS[@]}"; do printf '%s\n' "$AFW_DEVICE$part"; done)
 !

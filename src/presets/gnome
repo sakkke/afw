@@ -2,7 +2,7 @@
 
 set -eu
 
-eval "$(curl -s "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
+eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
 afw vars/gnome
 

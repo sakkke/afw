@@ -3,14 +3,14 @@
 afw vars/basic
 
 AFW_PACSTRAP_PACKAGES+=(
-  "gnome"
+  gnome
 )
 AFW_PASSWORDS+=(
-  "afw:afw"
+  afw:afw
 )
 AFW_SYSTEMD_SERVICES+=(
-  "gdm.service"
+  gdm.service
 )
 declare -a AFW_USERS=(
-  "afw"
+  afw
 )

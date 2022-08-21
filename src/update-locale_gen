@@ -1,7 +1,7 @@
 #!/bin/bash
 
-arch-chroot "${AFW_MOUNT_ENTRYPOINT}" "/bin/bash" << !
-for line in "${AFW_LOCALE_GEN}"; do
-  sed -E -i "s/^#(\${line})$/\\1/" "/etc/locale.gen"
+arch-chroot "$AFW_MOUNT_ENTRYPOINT" /bin/bash << !
+for line in "$AFW_LOCALE_GEN"; do
+  sed -E -i 's/^#(\${line})$/\\1/' /etc/locale.gen
 done
 !
