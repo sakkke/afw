@@ -1,0 +1,16 @@
+#!/bin/bash
+
+afw vars/basic
+afw vars/users
+
+AFW_PACSTRAP_PACKAGES+=(
+  lxde
+)
+
+AFW_PASSWORDS+=(
+  afw:afw
+)
+
+AFW_SYSTEMD_SERVICES+=(
+  lxdm.service
+)
