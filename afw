@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -n "${AFW_ENTRYPOINT:-}" ]; then
+if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
   entrypoint="$AFW_ENTRYPOINT"
 else
   entrypoint=https://raw.githubusercontent.com/sakkke/afw/main/src
@@ -9,7 +9,7 @@ fi
 afw() {
   filename="$1"
 
-  if [ -n "${AFW_ENTRYPOINT:-}" ]; then
+  if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
     eval_arg="$(cat "$entrypoint/$filename")"
   else
     eval_arg="$(curl -s "$entrypoint/$filename")"
