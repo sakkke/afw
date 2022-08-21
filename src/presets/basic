@@ -1,5 +1,7 @@
 #!/bin/bash
 
+eval "$(curl -s "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
+
 DEV=${DEV:-0}
 
 set -e
@@ -52,8 +54,6 @@ declare -a AFW_VCONSOLE_CONF=(
 if [[ -z "${AFW_DEVICE:-}" ]]; then
   read -p "AFW_DEVICE=" AFW_DEVICE
 fi
-
-eval "$(curl -s "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
 
 afw update-ntp
 afw part
