@@ -29,8 +29,6 @@ The next code is the example script:
 ```bash
 #!/bin/bash
 
-set -eu
-
 eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
 # Device label
