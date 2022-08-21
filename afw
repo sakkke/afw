@@ -12,7 +12,7 @@ function afw() {
   if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
     declare eval_arg="$(cat "${entrypoint}/${filename}")"
   else
-    declare eval_arg="$(curl "${entrypoint}/${filename}")"
+    declare eval_arg="$(curl -s "${entrypoint}/${filename}")"
   fi
 
   eval "${eval_arg}"

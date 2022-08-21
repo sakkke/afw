@@ -53,7 +53,7 @@ if [[ -z "${AFW_DEVICE:-}" ]]; then
   read -p "AFW_DEVICE=" AFW_DEVICE
 fi
 
-eval "$(curl "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
+eval "$(curl -s "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
 
 afw update-ntp
 afw part
