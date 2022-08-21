@@ -5,6 +5,6 @@ for mountpoint in "${AFW_MOUNTPOINTS[@]}"; do
     mount_source="$AFW_DEVICE$part_number"
     mount_directory="$AFW_MOUNT_ENTRYPOINT$directory"
     mkdir -pv "$mount_directory"
-    mount "$mount_source" "$mount_directory"
+    mount -v "$mount_source" "$mount_directory"
   done <<< "$mountpoint"
 done
