@@ -2,4 +2,4 @@
 
 for line in "${AFW_VCONSOLE_CONF[@]}"; do
   printf '%s\n' "$line"
-done > "$AFW_MOUNT_ENDPOINT/etc/vconsole.conf"
+done > "$AFW_MOUNT_ENTRYPOINT/etc/vconsole.conf"
