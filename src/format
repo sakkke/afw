@@ -4,11 +4,17 @@ for ((i = 0; i < ${#AFW_FILESYSTEMS[@]}; i++)); do
   declare filesystem="${AFW_FILESYSTEMS[i]}"
 
   declare device="${AFW_DEVICE}$((i + 1))"
+  
+  case "${filesystem}" in
+    "ext4" )
+      mkfs.ext4 -F "${device}"
+      ;;
 
-  if [[ $filesystem = "fat32" ]]; then
-    mkfs.fat -F 32 "${device}"
-    continue
-  fi
+    "fat32" )
+      mkfs.fat -F 32 "${device}"
+      ;;
 
-  "mkfs.${filesystem}" "${device}"
+    * )
+      "mkfs.${filesystem}" "${device}"
+  esac
 done
