@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [[ -z "${AFW_DEVICE:-}" ]]; then
+  read -p "AFW_DEVICE=" AFW_DEVICE
+fi

@@ -6,8 +6,6 @@ eval "$(curl -s "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
 
 afw vars/basic
 
-if [[ -z "${AFW_DEVICE:-}" ]]; then
-  read -p "AFW_DEVICE=" AFW_DEVICE
-fi
+afw prompts/device
 
 afw configs/basic
