@@ -16,7 +16,5 @@ for mountpoint in "${AFW_MOUNTPOINTS[@]}"; do
   done <<< "$mountpoint"
 done
 
-arch-chroot "$AFW_MOUNT_ENTRYPOINT" /bin/bash << !
-mkdir -pv '$efi_directory/EFI/BOOT'
-cp '$efi_directory/EFI$AFW_EFI_FILE' '$efi_directory/EFI/BOOT/bootx64.efi'
-!
+mkdir -pv "$AFW_MOUNT_ENTRYPOINT$efi_directory/EFI/BOOT"
+cp "$AFW_MOUNT_ENTRYPOINT$efi_directory/EFI$AFW_EFI_FILE" "$AFW_MOUNT_ENTRYPOINT$efi_directory/EFI/BOOT/bootx64.efi"

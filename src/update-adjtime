@@ -1,5 +1,3 @@
 #!/bin/bash
 
-arch-chroot "$AFW_MOUNT_ENTRYPOINT" /bin/bash << !
-hwclock --systohc
-!
+arch-chroot "$AFW_MOUNT_ENTRYPOINT" hwclock --systohc
