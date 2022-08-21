@@ -7,7 +7,7 @@ for ((i = 0; i < ${#AFW_FILESYSTEMS[@]}; i++)); do
   
   case "$filesystem" in
     ext4 )
-      mkfs.ext4 -F "${device}"
+      mkfs.ext4 -F "$device"
       ;;
 
     fat32 )

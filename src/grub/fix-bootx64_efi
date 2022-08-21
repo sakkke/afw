@@ -1,22 +1,22 @@
 #!/bin/bash
 
 for part in "${AFW_PARTS[@]}"; do
-  if [[ $part =~ 'type="EFI System"' ]]; then
+  if [ "$part" =~ 'type="EFI System"' ]; then
     while read -r part_number _; do
-      declare efi_part_number="${part_number}"
-    done <<< "${part}"
+      declare efi_part_number="$part_number"
+    done <<< "$part"
   fi
 done
 
 for mountpoint in "${AFW_MOUNTPOINTS[@]}"; do
-  while IFS=":" read part_number directory; do
-    if [[ $part_number = $efi_part_number ]]; then
-      declare efi_directory="${directory}"
+  while IFS=: read part_number directory; do
+    if [ "$part_number" = "$efi_part_number" ]; then
+      declare efi_directory="$directory"
     fi
-  done <<< "${mountpoint}"
+  done <<< "$mountpoint"
 done
 
-arch-chroot "${AFW_MOUNT_ENTRYPOINT}" "/bin/bash" << !
-mkdir -p -v "${efi_directory}/EFI/BOOT"
-cp "${efi_directory}/EFI${AFW_EFI_FILE}" "${efi_directory}/EFI/BOOT/bootx64.efi"
+arch-chroot "$AFW_MOUNT_ENTRYPOINT" /bin/bash << !
+mkdir -pv "$efi_directory/EFI/BOOT"
+cp "$efi_directory/EFI$AFW_EFI_FILE" "$efi_directory/EFI/BOOT/bootx64.efi"
 !
