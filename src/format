@@ -9,6 +9,6 @@ for ((i = 0; i < ${#AFW_FILESYSTEMS[@]}; i++)); do
     mkfs.fat -F 32 "${device}"
     continue
   fi
-  
+
   "mkfs.${filesystem}" "${device}"
 done
