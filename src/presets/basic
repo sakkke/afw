@@ -1,8 +1,8 @@
 #!/bin/bash
 
-eval "$(curl -s "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
-
 set -e
+
+eval "$(curl -s "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
 
 #declare AFW_DEVICE="/dev/sda"
 declare AFW_DEVICE_LABEL="gpt"
