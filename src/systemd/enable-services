@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for service in "${AFW_SYSTEMD_SERVICES}"; do
+  systemctl enable "${service}"
+done

@@ -46,6 +46,9 @@ declare -a AFW_PARTS=(
 declare -a AFW_PASSWORDS=(
   "root:afw"
 )
+declare -a AFW_SYSTEMD_SERVICES=(
+  "NetworkManager.service"
+)
 declare AFW_TIMEZONE="UTC"
 declare -a AFW_VCONSOLE_CONF=(
   "KEYMAP=us"
@@ -72,4 +75,4 @@ afw update-passwords
 afw grub/install
 afw grub/install-grub_cfg
 afw grub/fix-bootx64_efi
-afw networkmanager/install
+afw systemd/enable-services

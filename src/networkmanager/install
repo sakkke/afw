@@ -1,5 +1,0 @@
-#!/bin/bash
-
-arch-chroot "${AFW_MOUNT_ENTRYPOINT}" "/bin/bash" << "!"
-systemctl enable NetworkManager.service
-!
