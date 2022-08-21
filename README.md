@@ -33,56 +33,86 @@ set -eu
 
 eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
-declare AFW_DEVICE_LABEL="gpt"
-declare AFW_EFI_FILE="/GRUB/grubx64.efi"
-declare -a AFW_FILESYSTEMS=(
+# Device label
+AFW_DEVICE_LABEL=gpt
+
+# Path to EFI file
+AFW_EFI_FILE=/GRUB/grubx64.efi
+
+# File systems
+AFW_FILESYSTEMS=(
   fat32
   ext4
 )
-declare AFW_GRUB_BOOTLOADER_ID="GRUB"
-declare AFW_HOSTNAME="afw"
-declare -a AFW_LOCALE_GEN=(
-  "en_US.UTF-8 UTF-8"
+
+# Bootloader ID for GRUB
+AFW_GRUB_BOOTLOADER_ID=GRUB
+
+# Hostname
+AFW_HOSTNAME=afw
+
+# /etc/locale.gen
+AFW_LOCALE_GEN=(
+  'en_US.UTF-8 UTF-8'
 )
-declare AFW_MOUNT_ENTRYPOINT="/mnt"
-declare -a AFW_MOUNTPOINTS=(
-  "2:/"
-  "1:/boot"
+
+# Entrypoint for mount
+AFW_MOUNT_ENTRYPOINT=/mnt
+
+# Mountpoints
+AFW_MOUNTPOINTS=(
+  2:/
+  1:/boot
 )
-declare -a AFW_PACMAN_MIRRORS=(
+
+# Pacman mirrors
+AFW_PACMAN_MIRRORS=(
   'https://mirror.funami.tech/arch/$repo/os/$arch'
 )
-declare -a AFW_PACSTRAP_PACKAGES=(
-  "base"
-  "efibootmgr"
-  "linux"
-  "linux-firmware"
-  "networkmanager"
-  "grub"
+
+# Packages for the new system
+AFW_PACSTRAP_PACKAGES=(
+  base
+  efibootmgr
+  linux
+  linux-firmware
+  networkmanager
+  grub
 )
-declare -a AFW_PARTS=(
+
+# Partitions
+AFW_PARTS=(
   '1 : size=300MiB, type="EFI System"'
   '2 : type="Linux root (x86-64)"'
 )
-declare -a AFW_PASSWORDS=(
-  "root:afw"
-)
-declare -a AFW_SYSTEMD_SERVICES=(
-  "NetworkManager.service"
-)
-declare AFW_TIMEZONE="UTC"
-declare -a AFW_VCONSOLE_CONF=(
-  "KEYMAP=us"
+
+# Passwords
+AFW_PASSWORDS=(
+  root:afw
 )
 
-if [[ -z "${AFW_DEVICE:-}" ]]; then
-  read -p "AFW_DEVICE=" AFW_DEVICE
+# systemd services
+AFW_SYSTEMD_SERVICES=(
+  NetworkManager.service
+)
+
+# Timezone
+AFW_TIMEZONE=UTC
+
+# /etc/vconsole.conf
+AFW_VCONSOLE_CONF=(
+  KEYMAP=us
+)
+
+# Prompt for device which will be installed the new system
+if [ -z "${AFW_DEVICE:-}" ]; then
+  read -p AFW_DEVICE= AFW_DEVICE
 fi
 
 afw update-ntp
 afw part
 afw format
-afw mount && trap 'afw umount' "EXIT"
+afw mount && trap 'afw umount' EXIT
 afw pacman/update-mirrorlist
 afw pacstrap
 afw update-fstab
