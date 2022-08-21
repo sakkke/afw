@@ -2,18 +2,12 @@
 
 eval "$(curl -s "https://raw.githubusercontent.com/sakkke/afw/main/afw")"
 
-DEV=${DEV:-0}
-
 set -e
-
-if ((DEV)); then
-  set -ux
-  declare AFW_ENTRYPOINT="$(cd "$(dirname "${0}")/../../src" && pwd)"
-fi
 
 #declare AFW_DEVICE="/dev/sda"
 declare AFW_DEVICE_LABEL="gpt"
 declare AFW_EFI_FILE="/GRUB/grubx64.efi"
+#declare AFW_ENTRYPOINT="$(cd "$(dirname "${0}")/../../src" && pwd)"
 declare -a AFW_FILESYSTEMS=(
   fat32
   ext4
