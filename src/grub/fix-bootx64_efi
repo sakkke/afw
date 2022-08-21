@@ -17,6 +17,6 @@ for mountpoint in "${AFW_MOUNTPOINTS[@]}"; do
 done
 
 arch-chroot "${AFW_MOUNT_ENTRYPOINT}" "/bin/bash" << !
-mkdir -p "${efi_directory}/EFI/BOOT"
+mkdir -p -v "${efi_directory}/EFI/BOOT"
 cp "${efi_directory}/EFI${AFW_EFI_FILE}" "${efi_directory}/EFI/BOOT/bootx64.efi"
 !
