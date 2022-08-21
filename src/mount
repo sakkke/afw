@@ -2,7 +2,7 @@
 
 for mountpoint in "${AFW_MOUNTPOINTS[@]}"; do
   while IFS=: read -r part_number directory; do
-    declare mount_source="$AFW_DEVICE$part_number"
+    mount_source="$AFW_DEVICE$part_number"
     mount_directory="$AFW_MOUNT_ENTRYPOINT$directory"
     mkdir -pv "$mount_directory"
     mount "$mount_source" "$mount_directory"

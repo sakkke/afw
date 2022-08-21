@@ -11,6 +11,6 @@ AFW_PASSWORDS+=(
 AFW_SYSTEMD_SERVICES+=(
   gdm.service
 )
-declare -a AFW_USERS=(
+AFW_USERS=(
   afw
 )

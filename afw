@@ -1,20 +1,20 @@
 #!/bin/bash
 
-if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
-  declare entrypoint="${AFW_ENTRYPOINT}"
+if [ -n "${AFW_ENTRYPOINT:-}" ]; then
+  entrypoint="$AFW_ENTRYPOINT"
 else
-  declare entrypoint="https://raw.githubusercontent.com/sakkke/afw/main/src"
+  entrypoint=https://raw.githubusercontent.com/sakkke/afw/main/src
 fi
 
-function afw() {
-  declare filename="${1}"
+afw() {
+  filename="$1"
 
-  if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
-    declare eval_arg="$(cat "${entrypoint}/${filename}")"
+  if [ -n "${AFW_ENTRYPOINT:-}" ]; then
+    eval_arg="$(cat "$entrypoint/$filename")"
   else
-    declare eval_arg="$(curl -s "${entrypoint}/${filename}")"
+    eval_arg="$(curl -s "$entrypoint/$filename")"
   fi
 
-  printf '\e[32m%s\e[m\n' "afw> ${filename}"
-  eval "${eval_arg}"
+  printf '\e[32m%s\e[m\n' "afw> $filename"
+  eval "$eval_arg"
 }
