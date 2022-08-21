@@ -7,7 +7,7 @@ else
 fi
 
 function afw() {
-  declare filename="$1"
+  declare filename="${1}"
 
   if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
     declare eval_arg="$(cat "${entrypoint}/${filename}")"
