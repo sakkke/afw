@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for user in "${AFW_USERS[@]}"; do
+  useradd -m "$user"
+done
