@@ -3,7 +3,7 @@
 afw update-ntp
 afw part
 afw format
-afw mount && trap 'afw umount' "EXIT"
+afw mount && trap 'afw umount' EXIT
 afw pacman/update-mirrorlist
 afw pacstrap
 afw update-fstab
