@@ -5,12 +5,16 @@ afw vars/basic
 AFW_PACSTRAP_PACKAGES+=(
   gnome
 )
+
 AFW_PASSWORDS+=(
   afw:afw
 )
+
 AFW_SYSTEMD_SERVICES+=(
   gdm.service
 )
+
+# Users
 AFW_USERS=(
   afw
 )
