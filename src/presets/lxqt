@@ -2,7 +2,7 @@
 
 eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
-afw vars/lxde
+afw vars/lxqt
 
 afw prompts/device
 
