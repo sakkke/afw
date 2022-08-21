@@ -7,10 +7,6 @@ AFW_PACSTRAP_PACKAGES+=(
   gnome
 )
 
-AFW_PASSWORDS+=(
-  afw:afw
-)
-
 AFW_SYSTEMD_SERVICES+=(
   gdm.service
 )

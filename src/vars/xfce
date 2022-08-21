@@ -8,10 +8,6 @@ AFW_PACSTRAP_PACKAGES+=(
   xfce4
 )
 
-AFW_PASSWORDS+=(
-  afw:afw
-)
-
 AFW_SYSTEMD_SERVICES+=(
   lxdm.service
 )

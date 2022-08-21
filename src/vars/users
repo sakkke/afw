@@ -4,6 +4,10 @@ AFW_PACSTRAP_PACKAGES+=(
   sudo
 )
 
+AFW_PASSWORDS+=(
+  afw:afw
+)
+
 # Users
 AFW_USERS=(
   afw
