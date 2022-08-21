@@ -6,7 +6,6 @@ afw vars/users
 AFW_PACSTRAP_PACKAGES+=(
   lxdm
   xfce4
-  sudo
 )
 
 AFW_PASSWORDS+=(
