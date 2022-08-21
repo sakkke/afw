@@ -10,21 +10,4 @@ if [[ -z "${AFW_DEVICE:-}" ]]; then
   read -p "AFW_DEVICE=" AFW_DEVICE
 fi
 
-afw update-ntp
-afw part
-afw format
-afw mount && trap 'afw umount' "EXIT"
-afw pacman/update-mirrorlist
-afw pacstrap
-afw update-fstab
-afw update-timezone
-afw update-adjtime
-afw update-locale_gen
-afw update-locale
-afw update-vconsole_conf
-afw update-hostname
-afw update-passwords
-afw grub/install
-afw grub/install-grub_cfg
-afw grub/fix-bootx64_efi
-afw systemd/enable-services
+afw configs/basic
