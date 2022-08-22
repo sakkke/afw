@@ -1,3 +1,3 @@
 #!/bin/bash
 
-arch-chroot "$AFW_MOUNT_ENTRYPOINT" passwd -l root
+arch-chroot "$AFW_ROOT" passwd -l root

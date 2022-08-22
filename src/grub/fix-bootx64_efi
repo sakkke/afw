@@ -16,5 +16,5 @@ for mountpoint in "${AFW_MOUNTPOINTS[@]}"; do
   done <<< "$mountpoint"
 done
 
-mkdir -pv "$AFW_MOUNT_ENTRYPOINT$efi_directory/EFI/BOOT"
-cp "$AFW_MOUNT_ENTRYPOINT$efi_directory/EFI$AFW_EFI_FILE" "$AFW_MOUNT_ENTRYPOINT$efi_directory/EFI/BOOT/bootx64.efi"
+mkdir -pv "$AFW_ROOT$efi_directory/EFI/BOOT"
+cp "$AFW_ROOT$efi_directory/EFI$AFW_EFI_FILE" "$AFW_ROOT$efi_directory/EFI/BOOT/bootx64.efi"

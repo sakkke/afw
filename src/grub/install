@@ -16,7 +16,7 @@ for mountpoint in "${AFW_MOUNTPOINTS[@]}"; do
   done <<< "$mountpoint"
 done
 
-arch-chroot "$AFW_MOUNT_ENTRYPOINT" grub-install \
+arch-chroot "$AFW_ROOT" grub-install \
   --bootloader-id="$AFW_GRUB_BOOTLOADER_ID" \
   --efi-directory="$efi_directory" \
   --target=x86_64-efi

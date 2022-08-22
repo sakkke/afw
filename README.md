@@ -55,7 +55,7 @@ AFW_LOCALE_GEN=(
 )
 
 # Entrypoint for mount
-AFW_MOUNT_ENTRYPOINT=/mnt
+AFW_ROOT=/mnt
 
 # Mountpoints
 AFW_MOUNTPOINTS=(

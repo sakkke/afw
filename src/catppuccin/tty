@@ -16,9 +16,9 @@ esac
 
 curl \
   --create-dirs \
-  -o "$AFW_MOUNT_ENTRYPOINT/usr/share/catppuccin/tty.sh" \
+  -o "$AFW_ROOT/usr/share/catppuccin/tty.sh" \
   -s \
   "$url"
 
-chmod a+x "$AFW_MOUNT_ENTRYPOINT/usr/share/catppuccin/tty.sh"
-printf '%s\n' 'source /usr/share/catppuccin/tty.sh' >> "$AFW_MOUNT_ENTRYPOINT/etc/skel/.bashrc"
+chmod a+x "$AFW_ROOT/usr/share/catppuccin/tty.sh"
+printf '%s\n' 'source /usr/share/catppuccin/tty.sh' >> "$AFW_ROOT/etc/skel/.bashrc"

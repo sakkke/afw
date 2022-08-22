@@ -1,5 +1,5 @@
 #!/bin/bash
 
 for user in "${AFW_USERS[@]}"; do
-  arch-chroot "$AFW_MOUNT_ENTRYPOINT" useradd -G wheel -m "$user"
+  arch-chroot "$AFW_ROOT" useradd -G wheel -m "$user"
 done

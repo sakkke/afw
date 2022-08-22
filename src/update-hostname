@@ -1,3 +1,3 @@
 #!/bin/bash
 
-printf '%s\n' "$AFW_HOSTNAME" > "$AFW_MOUNT_ENTRYPOINT/etc/hostname"
+printf '%s\n' "$AFW_HOSTNAME" > "$AFW_ROOT/etc/hostname"

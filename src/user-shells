@@ -2,6 +2,6 @@
 
 for user_shell in "${AFW_USER_SHELLS[@]}"; do
   while IFS=: read -r user shell; do
-    arch-chroot "$AFW_MOUNT_ENTRYPOINT" chsh -s "$shell" "$user"
+    arch-chroot "$AFW_ROOT" chsh -s "$shell" "$user"
   done <<< "$user_shell"
 done
