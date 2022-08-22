@@ -4,7 +4,7 @@ eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
 afw vars/basic
 afw vars/users
-afw vars/lxqt
+afw vars/presets/lxqt
 
 afw prompts/device
 

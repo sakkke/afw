@@ -3,7 +3,7 @@
 eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
 afw vars/basic
-afw vars/openssh
+afw vars/presets/openssh
 
 afw prompts/device
 
