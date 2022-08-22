@@ -1,0 +1,13 @@
+#!/bin/bash
+
+afw vars/basic
+afw vars/users
+
+AFW_PACSTRAP_PACKAGES+=(
+  awesome
+  sddm
+)
+
+AFW_SYSTEMD_SERVICES+=(
+  sddm.service
+)

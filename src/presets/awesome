@@ -1,0 +1,9 @@
+#!/bin/bash
+
+eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
+
+afw vars/awesome
+
+afw prompts/device
+
+afw configs/awesome
