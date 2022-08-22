@@ -8,7 +8,6 @@ AFW_PASSWORDS+=(
   afw:afw
 )
 
-# Users
-AFW_USERS=(
+AFW_USERS+=(
   afw
 )

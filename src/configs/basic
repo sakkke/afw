@@ -13,6 +13,7 @@ afw update-locale_gen
 afw update-locale
 afw update-vconsole_conf
 afw update-hostname
+afw users
 afw update-passwords
 afw grub/install
 afw grub/install-grub_cfg

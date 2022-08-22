@@ -1,4 +1,3 @@
 #!/bin/bash
 
-afw users
 afw sudo/wheel
