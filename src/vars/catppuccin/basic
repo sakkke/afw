@@ -4,3 +4,11 @@ afw vars/basic
 afw vars/users
 
 AFW_CATPPUCCIN_FLAVOUR=macchiato
+
+AFW_PACSTRAP_PACKAGES+=(
+  terminus-font
+)
+
+AFW_VCONSOLE_CONF=(
+  FONT=ter-u16n
+)
