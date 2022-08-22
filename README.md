@@ -111,7 +111,7 @@ AFW_VCONSOLE_CONF=(
 )
 
 # Prompt for device which will be installed the new system
-if [[ -z "${AFW_DEVICE:-}" ]]; then
+if [[ -z $AFW_DEVICE ]]; then
   read -p AFW_DEVICE= AFW_DEVICE
 fi
 
