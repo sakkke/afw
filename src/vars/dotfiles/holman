@@ -8,6 +8,6 @@ AFW_PACSTRAP_PACKAGES+=(
   zsh
 )
 
-AFW_USER_SHELLS=(
+AFW_USER_SHELLS+=(
   afw:/usr/bin/zsh
 )
