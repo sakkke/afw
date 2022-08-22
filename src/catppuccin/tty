@@ -18,4 +18,9 @@ curl \
   -s \
   "$url"
 
-printf '%s\n' 'source /usr/share/catppuccin/tty.sh' >> "$AFW_ROOT/etc/skel/.bashrc"
+code='source /usr/share/catppuccin/tty.sh'
+printf '%s\n' "$code" >> "$AFW_ROOT/etc/skel/.bashrc"
+
+for user in "${AFW_USERS[@]}"; do
+  printf '%s\n' "$code" >> "$AFW_ROOT/home/$user/.bashrc
+done
