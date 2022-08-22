@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
+if [[ -n $AFW_ENTRYPOINT ]]; then
   entrypoint="$AFW_ENTRYPOINT"
 else
   entrypoint=https://raw.githubusercontent.com/sakkke/afw/main/src
@@ -10,17 +10,17 @@ afw() {
   filename="$1"
 
   for ((i = 0; i < 1; i++)); do
-    if [[ $filename =~ '^file://' ]]; then
+    if [[ $filename =~ ^file:// ]]; then
       eval_arg="$(cat "${filename:7}")"
       break
     fi
 
-    if [[ $filename =~ '^https://' ]]; then
+    if [[ $filename =~ ^https:// ]]; then
       eval_arg="$(curl -s "$filename")"
       break
     fi
 
-    if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
+    if [[ -n $AFW_ENTRYPOINT ]]; then
       eval_arg="$(cat "$entrypoint/$filename")"
     else
       eval_arg="$(curl -s "$entrypoint/$filename")"
