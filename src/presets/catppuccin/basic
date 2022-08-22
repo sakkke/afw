@@ -4,6 +4,7 @@ eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
 afw vars/basic
 afw vars/users
+afw vars/bash/update-bashrc
 afw vars/presets/catppuccin/basic
 
 afw prompts/device

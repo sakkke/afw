@@ -1,5 +1,5 @@
 #!/bin/bash
 
-AFW_PASSWORDS=(
+AFW_PASSWORDS+=(
   root:afw
 )
