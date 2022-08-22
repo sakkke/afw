@@ -4,10 +4,6 @@ eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
 afw vars/basic
 
-AFW_PASSWORDS=(
-  root:afw
-)
-
 afw prompts/device
 
 afw configs/presets/basic
