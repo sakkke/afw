@@ -8,6 +8,7 @@ AFW_CATPPUCCIN_FLAVOUR=macchiato
 AFW_PACSTRAP_PACKAGES+=(
   htop
   terminus-font
+  vim
 )
 
 AFW_VCONSOLE_CONF=(
