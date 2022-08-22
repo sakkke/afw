@@ -11,8 +11,9 @@ case "$AFW_CATPPUCCIN_FLAVOUR" in
     url="$base_url/mocha.sh"
 esac
 
+mkdir -pv "$AFW_ROOT/usr/share/catppuccin"
+
 curl \
-  --create-dirs \
   -o "$AFW_ROOT/usr/share/catppuccin/tty.sh" \
   -s \
   "$url"
