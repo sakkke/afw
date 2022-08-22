@@ -1,0 +1,14 @@
+#!/bin/bash
+
+afw vars/basic
+afw vars/users
+
+AFW_PACSTRAP_PACKAGES+=(
+  foot
+  sddm
+  sway
+)
+
+AFW_SYSTEMD_SERVICES+=(
+  sddm.service
+)
