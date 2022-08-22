@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for line in "${AFW_BASHRC[@]}"; do
+  printf '%s\n' "$line" >> "$AFW_ROOT/etc/skel/.bashrc"
+
+  for user in "${AFW_USERS[@]}"; do
+    printf '%s\n' "$line" >> "$AFW_ROOT/home/$user/.bashrc"
+  done
+done
