@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for user in "${AFW_USERS[@]}"; do
+  arch-chroot "$AFW_MOUNT_ENTRYPOINT" git clone https://github.com/holman/dotfiles.git "~$user/.dotfiles"
+  arch-chroot "$AFW_MOUNT_ENTRYPOINT" bash -c 'cd ~/.dotfiles && script/bootstrap'
+done
