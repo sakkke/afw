@@ -10,6 +10,11 @@ afw() {
   filename="$1"
 
   for ((i = 0; i < 1; i++)); do
+    if [[ $filename =~ '^file://' ]]; then
+      eval_arg="$(cat "${filename:7}")"
+      break
+    fi
+
     if [[ $filename =~ '^https://' ]]; then
       eval_arg="$(curl -s "$filename")"
       break
