@@ -7,3 +7,5 @@ afw vars/mate
 afw prompts/device
 
 afw configs/mate
+
+afw done

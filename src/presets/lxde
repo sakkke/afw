@@ -7,3 +7,5 @@ afw vars/lxde
 afw prompts/device
 
 afw configs/lxde
+
+afw done

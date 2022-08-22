@@ -7,3 +7,5 @@ afw vars/qtile
 afw prompts/device
 
 afw configs/qtile
+
+afw done

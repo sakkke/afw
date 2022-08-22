@@ -7,3 +7,5 @@ afw vars/cinnamon
 afw prompts/device
 
 afw configs/cinnamon
+
+afw done

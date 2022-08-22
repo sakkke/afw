@@ -7,3 +7,5 @@ afw vars/dotfiles/holman
 afw prompts/device
 
 afw configs/dotfiles/holman
+
+afw done

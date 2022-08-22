@@ -7,3 +7,5 @@ afw vars/i3
 afw prompts/device
 
 afw configs/i3
+
+afw done

@@ -7,3 +7,5 @@ afw vars/basic
 afw prompts/device
 
 afw configs/basic
+
+afw done

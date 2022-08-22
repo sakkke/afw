@@ -7,3 +7,5 @@ afw vars/xmonad
 afw prompts/device
 
 afw configs/xmonad
+
+afw done

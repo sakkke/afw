@@ -7,3 +7,5 @@ afw vars/gnome
 afw prompts/device
 
 afw configs/gnome
+
+afw done

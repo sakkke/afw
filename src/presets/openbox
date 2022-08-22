@@ -7,3 +7,5 @@ afw vars/openbox
 afw prompts/device
 
 afw configs/openbox
+
+afw done

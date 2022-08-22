@@ -7,3 +7,5 @@ afw vars/kde
 afw prompts/device
 
 afw configs/kde
+
+afw done
