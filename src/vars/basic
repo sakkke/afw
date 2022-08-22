@@ -51,9 +51,7 @@ AFW_PARTS=(
 )
 
 # Passwords
-AFW_PASSWORDS=(
-  root:afw
-)
+AFW_PASSWORDS=()
 
 # Entrypoint for mount
 AFW_ROOT=/mnt
