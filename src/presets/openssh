@@ -2,10 +2,12 @@
 
 eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
+afw vars/basic
 afw vars/openssh
 
 afw prompts/device
 
+afw configs/basic
 afw configs/openssh
 
 afw done

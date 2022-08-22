@@ -6,6 +6,8 @@ afw vars/catppuccin/basic
 
 afw prompts/device
 
+afw configs/basic
+afw configs/users
 afw configs/catppuccin/basic
 
 afw done

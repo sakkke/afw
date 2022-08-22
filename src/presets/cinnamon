@@ -2,10 +2,14 @@
 
 eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
+afw vars/basic
+afw vars/users
 afw vars/cinnamon
 
 afw prompts/device
 
+afw configs/basic
+afw configs/users
 afw configs/cinnamon
 
 afw done

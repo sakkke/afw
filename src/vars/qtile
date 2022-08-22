@@ -1,8 +1,5 @@
 #!/bin/bash
 
-afw vars/basic
-afw vars/users
-
 AFW_PACSTRAP_PACKAGES+=(
   qtile
   sddm
