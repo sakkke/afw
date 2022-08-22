@@ -54,9 +54,6 @@ AFW_LOCALE_GEN=(
   'en_US.UTF-8 UTF-8'
 )
 
-# Entrypoint for mount
-AFW_ROOT=/mnt
-
 # Mountpoints
 AFW_MOUNTPOINTS=(
   2:/
@@ -88,6 +85,9 @@ AFW_PARTS=(
 AFW_PASSWORDS=(
   root:afw
 )
+
+# Entrypoint for mount
+AFW_ROOT=/mnt
 
 # systemd services
 AFW_SYSTEMD_SERVICES=(
