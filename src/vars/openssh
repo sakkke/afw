@@ -1,0 +1,7 @@
+#!/bin/bash
+
+afw vars/basic
+
+AFW_PACSTRAP_PACKAGES+=(
+  openssh
+)
