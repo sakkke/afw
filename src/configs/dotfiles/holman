@@ -1,4 +1,4 @@
 #!/bin/bash
 
-afw basic
+afw config/basic
 afw dotfiles/holman
