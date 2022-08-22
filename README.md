@@ -97,6 +97,12 @@ AFW_SYSTEMD_SERVICES=(
 # Timezone
 AFW_TIMEZONE=UTC
 
+# Users
+AFW_USERS=()
+
+# User shells
+AFW_USER_SHELLS=()
+
 # /etc/vconsole.conf
 AFW_VCONSOLE_CONF=(
   KEYMAP=us
