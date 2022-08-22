@@ -9,11 +9,18 @@ fi
 afw() {
   filename="$1"
 
-  if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
-    eval_arg="$(cat "$entrypoint/$filename")"
-  else
-    eval_arg="$(curl -s "$entrypoint/$filename")"
-  fi
+  for ((i = 0; i < 1; i++)); do
+    if [[ $filename =~ '^https://' ]]; then
+      eval_arg="$(curl -s "$filename")"
+      break
+    fi
+
+    if [[ -n "${AFW_ENTRYPOINT:-}" ]]; then
+      eval_arg="$(cat "$entrypoint/$filename")"
+    else
+      eval_arg="$(curl -s "$entrypoint/$filename")"
+    fi
+  done
 
   printf '\e[32m%s\e[m\n' "afw> $filename"
   eval "$eval_arg"
