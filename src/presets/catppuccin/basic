@@ -2,7 +2,9 @@
 
 eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
-afw vars/catppuccin/basic
+afw vars/basic
+afw vars/users
+afw vars/presets/catppuccin/basic
 
 afw prompts/device
 
