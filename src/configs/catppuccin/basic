@@ -1,0 +1,5 @@
+#!/bin/bash
+
+afw configs/users
+afw catppuccin/tty
+afw configs/basic
