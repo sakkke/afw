@@ -4,8 +4,8 @@ afw vars/basic
 afw vars/users
 
 AFW_PACSTRAP_PACKAGES+=(
-  xmonad
   sddm
+  xmonad
 )
 
 AFW_SYSTEMD_SERVICES+=(
