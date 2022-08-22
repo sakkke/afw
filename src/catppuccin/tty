@@ -17,5 +17,4 @@ curl \
   -s \
   "$url"
 
-chmod a+x "$AFW_ROOT/usr/share/catppuccin/tty.sh"
 printf '%s\n' 'source /usr/share/catppuccin/tty.sh' >> "$AFW_ROOT/etc/skel/.bashrc"
