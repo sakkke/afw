@@ -3,10 +3,7 @@
 base_url=https://raw.githubusercontent.com/catppuccin/tty/main
 
 case "$AFW_CATPPUCCIN_FLAVOUR" in
-  frappe )
-  latte )
-  macchiato )
-  mocha )
+  frappe | latte | macchiato | mocha )
     url="$base_url/$AFW_CATPPUCCIN_FLAVOUR.sh"
     ;;
 
