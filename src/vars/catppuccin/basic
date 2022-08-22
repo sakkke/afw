@@ -3,6 +3,10 @@
 afw vars/basic
 afw vars/users
 
+AFW_BASHRC=(
+  "PS1='\\[\\e[1;32m\\]\u@\\h\[\\e[m\\]:\\[\\e[1;34m\\]\w\\[\\e[m\\]\\$ '"
+)
+
 AFW_CATPPUCCIN_FLAVOUR=macchiato
 
 AFW_PACSTRAP_PACKAGES+=(

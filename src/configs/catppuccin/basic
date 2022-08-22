@@ -3,3 +3,4 @@
 afw configs/basic
 afw configs/users
 afw catppuccin/tty
+afw bash/update-bashrc
