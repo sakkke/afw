@@ -31,8 +31,10 @@ The next code is the example script:
 
 eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 
-# Device label
-AFW_DEVICE_LABEL=gpt
+# Device header lines
+AFW_DEVICE_HEADER_LINES=(
+  'label: gpt'
+)
 
 # Path to EFI file
 AFW_EFI_FILE=/GRUB/grubx64.efi

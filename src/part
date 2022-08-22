@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sfdisk "$AFW_DEVICE" << !
-label: $AFW_DEVICE_LABEL
+$(for line in "${AFW_DEVICE_HEADER_LINES[@]}"; do printf '%s\n' "$line"; done)
 
 $(for part in "${AFW_PARTS[@]}"; do printf '%s\n' "$AFW_DEVICE$part"; done)
 !
