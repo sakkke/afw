@@ -1,6 +1,6 @@
 #!/bin/bash
 
-afw configs/users
+afw users
 afw user-shells
 afw basic
 afw dotfiles/holman
