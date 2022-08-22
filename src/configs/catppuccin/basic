@@ -1,5 +1,4 @@
 #!/bin/bash
 
-afw configs/users
 afw configs/basic
 afw catppuccin/tty
