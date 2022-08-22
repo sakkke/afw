@@ -8,6 +8,6 @@ afw vars/openssh
 afw prompts/device
 
 afw configs/basic
-afw configs/openssh
+afw configs/presets/openssh
 
 afw done

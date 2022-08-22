@@ -10,6 +10,6 @@ afw prompts/device
 
 afw configs/basic
 afw configs/users
-afw configs/mate
+afw configs/presets/mate
 
 afw done

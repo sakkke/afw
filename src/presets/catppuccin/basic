@@ -8,6 +8,6 @@ afw prompts/device
 
 afw configs/basic
 afw configs/users
-afw configs/catppuccin/basic
+afw configs/presets/catppuccin/basic
 
 afw done

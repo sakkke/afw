@@ -10,6 +10,6 @@ afw prompts/device
 
 afw configs/basic
 afw configs/users
-afw configs/sway
+afw configs/presets/sway
 
 afw done

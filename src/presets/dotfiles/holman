@@ -10,6 +10,6 @@ afw prompts/device
 
 afw configs/basic
 afw configs/users
-afw configs/dotfiles/holman
+afw configs/presets/dotfiles/holman
 
 afw done

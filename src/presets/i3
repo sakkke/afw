@@ -10,6 +10,6 @@ afw prompts/device
 
 afw configs/basic
 afw configs/users
-afw configs/i3
+afw configs/presets/i3
 
 afw done

@@ -10,6 +10,6 @@ afw prompts/device
 
 afw configs/basic
 afw configs/users
-afw configs/xfce
+afw configs/presets/xfce
 
 afw done

@@ -10,6 +10,6 @@ afw prompts/device
 
 afw configs/basic
 afw configs/users
-afw configs/openbox
+afw configs/presets/openbox
 
 afw done

@@ -10,6 +10,6 @@ afw prompts/device
 
 afw configs/basic
 afw configs/users
-afw configs/qtile
+afw configs/presets/qtile
 
 afw done

@@ -10,6 +10,6 @@ AFW_PASSWORDS=(
 
 afw prompts/device
 
-afw configs/basic
+afw configs/presets/basic
 
 afw done
