@@ -64,7 +64,7 @@ AFW_MOUNTPOINTS=(
 
 # Pacman mirrors
 AFW_PACMAN_MIRRORS=(
-  'https://mirror.funami.tech/arch/$repo/os/$arch'
+  'https://geo.mirror.pkgbuild.com/$repo/os/$arch'
 )
 
 # Packages for the new system
