@@ -135,3 +135,7 @@ afw grub/fix-bootx64_efi
 afw systemd/enable-services
 afw umount
 ```
+
+## License
+
+`MIT`
