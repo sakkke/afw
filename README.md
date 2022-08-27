@@ -114,7 +114,7 @@ AFW_VCONSOLE_CONF=(
   KEYMAP=us
 )
 
-# Prompt for device which will be installed the new system
+# Prompt for device which will be installed on the new system
 if [[ -z $AFW_DEVICE ]]; then
   read -p AFW_DEVICE= AFW_DEVICE
 fi
