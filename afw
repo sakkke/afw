@@ -29,8 +29,5 @@ afw() {
 
   printf '\e[32m%s\e[m\n' "afw> $filename"
 
-  (
-    set -eu
-    eval "$eval_arg"
-  )
+  eval "$eval_arg"
 }
