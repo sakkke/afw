@@ -30,7 +30,8 @@ Add the next one-liner to your script:
 eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 ```
 
-The next code is the example script:
+<details>
+<summary>The next code is the example script</summary>
 
 ```bash
 #!/bin/bash
@@ -141,6 +142,8 @@ afw grub/fix-bootx64_efi
 afw systemd/enable-services
 afw umount
 ```
+
+</details>
 
 ## Developers
 
