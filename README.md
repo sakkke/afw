@@ -8,7 +8,6 @@
 
 Arch Framework ⚙️
 
-[![GitHub contributers](https://img.shields.io/github/contributors/sakkke/afw?style=flat-square)]()
 [![GitHub forks](https://img.shields.io/github/forks/sakkke/afw?style=flat-square)]()
 [![GitHub issues](https://img.shields.io/github/issues/sakkke/afw?style=flat-square)]()
 [![GitHub license](https://img.shields.io/github/license/sakkke/afw?style=flat-square)]()
