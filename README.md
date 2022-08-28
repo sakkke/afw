@@ -43,6 +43,7 @@ afw presets/basic
 ```
 
 You can see available presets in [/src/presets/](https://github.com/sakkke/afw/tree/main/src/presets).
+Or, you can see [how to create the your custom preset](#create-the-your-custom-preset).
 
 ### Work with Script
 
@@ -196,6 +197,37 @@ You can change the entry point URL with the environment variable `AFW_ENTRYPOINT
 ### Script Naming Rules
 
 Scripts are named `<noun>`, `<command_name>` or `<verb>-<noun>`.
+
+### Create the your custom preset
+
+#### A Recommended Way
+
+First, create the script in `$AFW_ENTRYPOINT/presets/`.
+Here, name the script as `foo`.
+Put the next content to newly created script:
+
+```bash
+#!/bin/bash
+
+afw vars/foo
+afw deps/foo
+afw done
+```
+
+This script does three steps:
+
+1. Load variables
+2. Load dependencies
+3. Show the done messages
+
+Second, enter Bash.
+To run newly created script:
+
+```bash
+afw presets/foo
+```
+
+It does 
 
 ## License
 
