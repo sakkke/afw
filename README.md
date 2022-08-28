@@ -8,14 +8,14 @@
 
 Arch Framework ⚙️
 
-[![GitHub contributers](https://img.shields.io/github/contributors/sakkke/afw)]()
-[![GitHub forks](https://img.shields.io/github/forks/sakkke/afw)]()
-[![GitHub issues](https://img.shields.io/github/issues/sakkke/afw)]()
-[![GitHub license](https://img.shields.io/github/license/sakkke/afw)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/sakkke/afw)]()
-[![GitHub stars](https://img.shields.io/github/stars/sakkke/afw)]()
+[![GitHub contributers](https://img.shields.io/github/contributors/sakkke/afw?style=flat-square)]()
+[![GitHub forks](https://img.shields.io/github/forks/sakkke/afw?style=flat-square)]()
+[![GitHub issues](https://img.shields.io/github/issues/sakkke/afw?style=flat-square)]()
+[![GitHub license](https://img.shields.io/github/license/sakkke/afw?style=flat-square)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/sakkke/afw?style=flat-square)]()
+[![GitHub stars](https://img.shields.io/github/stars/sakkke/afw?style=flat-square)]()
 
-[![Discord](https://img.shields.io/discord/1012345440873742436?color=%235865F2&label=Discord&logo=Discord&logoColor=%23FFF)](https://discord.gg/HYKfDBMkyq)
+[![Discord](https://img.shields.io/discord/1012345440873742436?color=%235865F2&label=Discord&logo=Discord&logoColor=%23FFF&style=flat-square)](https://discord.gg/HYKfDBMkyq)
 
 __ATTENTION ME!__
 
