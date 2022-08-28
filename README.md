@@ -14,7 +14,7 @@ Arch Framework ⚙️
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/sakkke/afw?style=flat-square)]()
 [![GitHub stars](https://img.shields.io/github/stars/sakkke/afw?style=flat-square)]()
 
-[![Discord](https://img.shields.io/discord/1012345440873742436?color=%235865F2&label=Discord&logo=Discord&logoColor=%23FFF&style=flat-square)](https://discord.gg/HYKfDBMkyq)
+[![Discord](https://img.shields.io/discord/1012345440873742436?color=5865f2&label=Discord&logo=discord&logoColor=fff&style=flat-square)](https://discord.gg/HYKfDBMkyq)
 
 [![Buy Me A Pizza](https://img.shields.io/badge/Buy_Me_A_Pizza-orange?logo=buymeacoffee&logoColor=fff&style=flat-square)](https://www.buymeacoffee.com/sakkke)
 
