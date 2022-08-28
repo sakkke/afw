@@ -7,7 +7,7 @@ afw vars/presets/openssh
 
 afw prompts/device
 
-afw configs/basic
-afw configs/presets/openssh
+afw deps/basic
+afw deps/presets/openssh
 
 afw done

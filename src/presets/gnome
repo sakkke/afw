@@ -8,8 +8,8 @@ afw vars/presets/gnome
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/gnome
+afw deps/basic
+afw deps/users
+afw deps/presets/gnome
 
 afw done

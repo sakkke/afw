@@ -8,8 +8,8 @@ afw vars/presets/mate
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/mate
+afw deps/basic
+afw deps/users
+afw deps/presets/mate
 
 afw done

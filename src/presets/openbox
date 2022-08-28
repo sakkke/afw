@@ -8,8 +8,8 @@ afw vars/presets/openbox
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/openbox
+afw deps/basic
+afw deps/users
+afw deps/presets/openbox
 
 afw done

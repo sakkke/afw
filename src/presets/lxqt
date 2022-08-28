@@ -8,8 +8,8 @@ afw vars/presets/lxqt
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/lxqt
+afw deps/basic
+afw deps/users
+afw deps/presets/lxqt
 
 afw done

@@ -8,8 +8,8 @@ afw vars/presets/i3
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/i3
+afw deps/basic
+afw deps/users
+afw deps/presets/i3
 
 afw done

@@ -8,8 +8,8 @@ afw vars/presets/icewm
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/sway
+afw deps/basic
+afw deps/users
+afw deps/presets/sway
 
 afw done

@@ -6,6 +6,6 @@ afw vars/basic
 
 afw prompts/device
 
-afw configs/presets/basic
+afw deps/presets/basic
 
 afw done

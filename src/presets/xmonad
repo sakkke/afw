@@ -8,8 +8,8 @@ afw vars/presets/xmonad
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/xmonad
+afw deps/basic
+afw deps/users
+afw deps/presets/xmonad
 
 afw done

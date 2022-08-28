@@ -9,8 +9,8 @@ afw vars/presets/catppuccin/basic
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/catppuccin/basic
+afw deps/basic
+afw deps/users
+afw deps/presets/catppuccin/basic
 
 afw done

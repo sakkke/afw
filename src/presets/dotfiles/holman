@@ -8,8 +8,8 @@ afw vars/presets/dotfiles/holman
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/dotfiles/holman
+afw deps/basic
+afw deps/users
+afw deps/presets/dotfiles/holman
 
 afw done

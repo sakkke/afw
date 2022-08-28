@@ -8,8 +8,8 @@ afw vars/awesome
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/awesome
+afw deps/basic
+afw deps/users
+afw deps/awesome
 
 afw done

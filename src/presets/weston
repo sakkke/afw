@@ -8,8 +8,8 @@ afw vars/presets/weston
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/weston
+afw deps/basic
+afw deps/users
+afw deps/presets/weston
 
 afw done

@@ -8,8 +8,8 @@ afw vars/presets/cinnamon
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/cinnamon
+afw deps/basic
+afw deps/users
+afw deps/presets/cinnamon
 
 afw done

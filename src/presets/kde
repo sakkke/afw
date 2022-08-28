@@ -8,8 +8,8 @@ afw vars/presets/kde
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/kde
+afw deps/basic
+afw deps/users
+afw deps/presets/kde
 
 afw done

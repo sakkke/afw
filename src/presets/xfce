@@ -8,8 +8,8 @@ afw vars/presets/xfce
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/xfce
+afw deps/basic
+afw deps/users
+afw deps/presets/xfce
 
 afw done

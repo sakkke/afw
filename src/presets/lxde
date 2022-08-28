@@ -8,8 +8,8 @@ afw vars/presets/lxde
 
 afw prompts/device
 
-afw configs/basic
-afw configs/users
-afw configs/presets/lxde
+afw deps/basic
+afw deps/users
+afw deps/presets/lxde
 
 afw done
