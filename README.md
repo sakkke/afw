@@ -21,8 +21,8 @@ Arch Framework ⚙️
 
 ## Overview
 
-It's Arch Framework which helps to install the new system.
-It's available in interactive shell and script.
+It's Arch Framework which helps to install the new Arch Linux system.
+afw is made with Bash and available in [interactive shell](#work-with-interactive-shell) and [script](#work-with-script).
 
 ### Good Points
 
