@@ -14,7 +14,7 @@ Arch Framework which helps to install the new Arch Linux ⚙️
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Discord](https://img.shields.io/discord/1012345440873742436?color=5865f2&label=Discord&logo=discord&logoColor=fff&style=flat-square)](https://discord.gg/HYKfDBMkyq)
+[![Discord](https://img.shields.io/discord/1012345440873742436?color=5865F2&label=Discord&logo=discord&logoColor=FFF&style=flat-square)](https://discord.gg/HYKfDBMkyq)
 
 [![Buy Me A Pizza](https://img.shields.io/badge/Buy_Me_A_Pizza-FFDD00?logo=buymeacoffee&logoColor=000&style=flat-square)](https://www.buymeacoffee.com/sakkke)
 
