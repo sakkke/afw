@@ -1,9 +1,5 @@
 <div align="center">
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 # afw
 
 Arch Framework which helps to install the new Arch Linux ⚙️
@@ -13,6 +9,10 @@ Arch Framework which helps to install the new Arch Linux ⚙️
 [![GitHub license](https://img.shields.io/github/license/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/blob/main/LICENSE)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/pulls)
 [![GitHub stars](https://img.shields.io/github/stars/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/stargazers)
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Discord](https://img.shields.io/discord/1012345440873742436?color=5865f2&label=Discord&logo=discord&logoColor=fff&style=flat-square)](https://discord.gg/HYKfDBMkyq)
 
