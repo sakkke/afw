@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "sakkke",
+      "name": "Konosuke Sakai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84666033?v=4",
+      "profile": "https://github.com/sakkke",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "afw",
+  "projectOwner": "sakkke",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
