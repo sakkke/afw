@@ -1,13 +1,21 @@
+<div align="center">
+
 # afw
+
+Arch Framework
+
+</div>
 
 ![afw](https://socialify.git.ci/sakkke/afw/image?description=1&descriptionEditable=Arch%20Framework&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
 
 - https://discord.gg/HYKfDBMkyq
 
-[![asciicast](https://asciinema.org/a/517447.svg)](https://asciinema.org/a/517447)
-
 It's Arch Framework which helps to install the new system.
 It's available in interactive shell and script.
+
+## Screencast
+
+[![asciicast](https://asciinema.org/a/517447.svg)](https://asciinema.org/a/517447)
 
 ## Users
 
