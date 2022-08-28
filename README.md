@@ -231,8 +231,6 @@ To run newly created script:
 afw presets/foo
 ```
 
-It does 
-
 ## License
 
 `MIT`
