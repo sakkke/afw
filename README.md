@@ -255,6 +255,11 @@ afw presets/foo
 
 See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
+## Contributing
+
+Feel free to contribute to this project!
+There is [CONTRIBUTING.md](./CONTRIBUTING.md).
+
 ## License
 
 `MIT`
