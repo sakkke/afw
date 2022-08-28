@@ -35,6 +35,12 @@ We can add the desktop environment (GNOME, KDE, etc), the server application (Op
 Configuration is managable as a component.
 So we can use the components which you need, when you need them!
 
+## Philosophy
+
+> Be Simple
+
+> Done is Better Than Perfect
+
 ## User Guides
 
 ### Work with Interactive Shell
