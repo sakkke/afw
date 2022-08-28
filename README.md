@@ -6,7 +6,7 @@
 
 # afw
 
-Arch Framework ⚙️
+Arch Framework which helps to install the new Arch Linux ⚙️
 
 [![GitHub forks](https://img.shields.io/github/forks/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/fork)
 [![GitHub issues](https://img.shields.io/github/issues/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/issues)
@@ -31,7 +31,7 @@ So it may happen some breaking changes.
 
 ## Overview
 
-It's Arch Framework which helps to install the new Arch Linux system.
+It's Arch Framework which helps to install the new Arch Linux.
 afw is made with Bash and available in [interactive shell](#work-with-interactive-shell) and [script](#work-with-script).
 
 ### Good Points
