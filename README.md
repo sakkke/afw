@@ -149,15 +149,15 @@ afw umount
 - `src/`: Entry point
   - `deps/`: Including scripts of dependencies
     - `presets/`: Dependencies for presets
-    - `[-A-Z_a-z]+/`: Includes scripts
+    - `[-A-Z_a-z]+/`: Including scripts
     - `[-A-Z_a-z]+`: Scripts
   - `presets/`: Including scripts for users
   - `prompts/`: Including scripts for inputting
   - `vars/`: Including scripts of variables
     - `presets/`: Variables for presets
-    - `[-A-Z_a-z]+/`: Includes scripts
+    - `[-A-Z_a-z]+/`: Including scripts
     - `[-A-Z_a-z]+`: Scripts
-  - `[-A-Z_a-z]+/`: Includes scripts
+  - `[-A-Z_a-z]+/`: Including scripts
   - `[-A-Z_a-z]+`: Scripts
 
 ## License
