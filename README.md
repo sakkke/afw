@@ -192,6 +192,8 @@ afw umount
 
 ### Environment Variables
 
+There are environment variables which is used by afw function.
+
 Name | Description | Default value
 --- | --- | ---
 `AFW_ENTRYPOINT` | URL or file path to reference the components directory. | `https://raw.githubusercontent.com/sakkke/afw/main/components`
