@@ -172,6 +172,12 @@ afw umount
 
 </details>
 
+### Environment Variables
+
+Name | Description | Default value
+--- | --- | ---
+`AFW_ENTRYPOINT` | URL or file path to reference the components directory. | https://raw.githubusercontent.com/sakkke/afw/main/components
+
 ## Development Guides
 
 afw is Bash function; it does two steps:
