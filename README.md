@@ -4,9 +4,11 @@
 
 Arch Framework ⚙️
 
+[![GitHub contributers](https://img.shields.io/github/contributors/sakkke/afw)]()
 [![GitHub forks](https://img.shields.io/github/forks/sakkke/afw)]()
 [![GitHub issues](https://img.shields.io/github/issues/sakkke/afw)]()
 [![GitHub license](https://img.shields.io/github/license/sakkke/afw)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/sakkke/afw)]()
 [![GitHub stars](https://img.shields.io/github/stars/sakkke/afw)]()
 
 [![Discord](https://img.shields.io/discord/1012345440873742436?color=%235865F2&label=Discord&logo=Discord&logoColor=%23FFF)](https://discord.gg/HYKfDBMkyq)
