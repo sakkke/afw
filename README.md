@@ -17,12 +17,10 @@ Arch Framework ⚙️
 
 ---
 
+[![asciicast](https://asciinema.org/a/517447.svg)](https://asciinema.org/a/517447)
+
 It's Arch Framework which helps to install the new system.
 It's available in interactive shell and script.
-
-## Screencast
-
-[![asciicast](https://asciinema.org/a/517447.svg)](https://asciinema.org/a/517447)
 
 ## User Guides
 
