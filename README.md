@@ -46,7 +46,7 @@ eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 afw presets/basic
 ```
 
-You can see available presets in [/src/presets/](https://github.com/sakkke/afw/tree/main/src/presets).
+You can see available presets in [/components/presets/](https://github.com/sakkke/afw/tree/main/components/presets).
 Or, you can see [how to create the your custom preset](#create-the-your-custom-preset).
 
 ### Work with Script
@@ -179,12 +179,12 @@ afw is Bash function; it does two steps:
 1. Download the script from the entry point URL with cURL
 2. Eval the downloaded script content in the current shell
 
-The default entry point URL is `https://raw.githubusercontent.com/sakkke/afw/main/src`.
+The default entry point URL is `https://raw.githubusercontent.com/sakkke/afw/main/components`.
 You can change the entry point URL with the environment variable `AFW_ENTRYPOINT`.
 
 ### Directory Structure
 
-- `src/`: Entry point
+- `components/`: Entry point
   - `deps/`: Including scripts of dependencies
     - `presets/`: Dependencies for presets
     - `[-A-Z_a-z]+/`: Including scripts

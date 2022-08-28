@@ -3,7 +3,7 @@
 if [[ -n $AFW_ENTRYPOINT ]]; then
   entrypoint="$AFW_ENTRYPOINT"
 else
-  entrypoint=https://raw.githubusercontent.com/sakkke/afw/main/src
+  entrypoint=https://raw.githubusercontent.com/sakkke/afw/main/components
 fi
 
 afw() {
