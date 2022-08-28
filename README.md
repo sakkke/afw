@@ -2,13 +2,16 @@
 
 # afw
 
-Arch Framework
+Arch Framework ⚙️
+
+[![GitHub forks](https://img.shields.io/github/forks/sakkke/afw)]()
+[![GitHub issues](https://img.shields.io/github/issues/sakkke/afw)]()
+[![GitHub license](https://img.shields.io/github/license/sakkke/afw)]()
+[![GitHub stars](https://img.shields.io/github/stars/sakkke/afw)]()
+
+[![Discord](https://img.shields.io/discord/1012345440873742436?color=%235865F2&label=Discord&logo=Discord&logoColor=%23FFF)](https://discord.gg/HYKfDBMkyq)
 
 </div>
-
-![afw](https://socialify.git.ci/sakkke/afw/image?description=1&descriptionEditable=Arch%20Framework&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
-
-- https://discord.gg/HYKfDBMkyq
 
 It's Arch Framework which helps to install the new system.
 It's available in interactive shell and script.
