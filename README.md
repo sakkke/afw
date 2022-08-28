@@ -251,6 +251,10 @@ To run newly created script:
 afw presets/foo
 ```
 
+## Code of Conduct
+
+See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
+
 ## License
 
 `MIT`
