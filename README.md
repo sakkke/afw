@@ -24,11 +24,11 @@ It's available in interactive shell and script.
 
 [![asciicast](https://asciinema.org/a/517447.svg)](https://asciinema.org/a/517447)
 
-## Users
+## User Guides
 
-### Interactive Shell
+### Work with Interactive Shell
 
-You can try the next commands to install the new system with the preset named `basic`:
+You can try the next commands __in Bash__ to install the new system with the preset named `basic`:
 
 ```bash
 eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
@@ -37,7 +37,7 @@ afw presets/basic
 
 You can see available presets in [/src/presets/](https://github.com/sakkke/afw/tree/main/src/presets).
 
-### Script
+### Work with Script
 
 Add the next one-liner to your script:
 
@@ -160,7 +160,7 @@ afw umount
 
 </details>
 
-## Developers
+## Development Guides
 
 afw is Bash function; it does two steps:
 
