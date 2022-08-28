@@ -19,8 +19,17 @@ Arch Framework ⚙️
 
 [![asciicast](https://asciinema.org/a/517447.svg)](https://asciinema.org/a/517447)
 
+## Overview
+
 It's Arch Framework which helps to install the new system.
 It's available in interactive shell and script.
+
+### Good Points
+
+- Simple structure
+- Easy installation of Arch Linux
+- Highly customizable
+- Custom entry point support
 
 ## User Guides
 
