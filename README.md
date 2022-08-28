@@ -160,6 +160,10 @@ afw umount
   - `[-A-Z_a-z]+/`: Including scripts
   - `[-A-Z_a-z]+`: Scripts
 
+### Script Naming Rules
+
+Scripts are named `<noun>`, `<command_name>` or `<verb>-<noun>`.
+
 ## License
 
 `MIT`
