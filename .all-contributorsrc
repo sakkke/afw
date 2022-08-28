@@ -15,6 +15,15 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "taylorjeandev",
+      "name": "Taylor Jean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98131909?v=4",
+      "profile": "https://www.linkedin.com/in/taylorjeandev/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
