@@ -9,7 +9,9 @@
 It's Arch Framework which helps to install the new system.
 It's available in interactive shell and script.
 
-## Interactive Shell
+## Users
+
+### Interactive Shell
 
 You can try the next commands to install the new system with the preset named `basic`:
 
@@ -20,7 +22,7 @@ afw presets/basic
 
 You can see available presets in [/src/presets/](https://github.com/sakkke/afw/tree/main/src/presets).
 
-## Script
+### Script
 
 Add the next one-liner to your script:
 
@@ -139,6 +141,24 @@ afw grub/fix-bootx64_efi
 afw systemd/enable-services
 afw umount
 ```
+
+## Developers
+
+### Directory Structure
+
+- `src/`: Entry point
+  - `deps/`: Including scripts of dependencies
+    - `presets/`: Dependencies for presets
+    - `[-A-Z_a-z]+/`: Includes scripts
+    - `[-A-Z_a-z]+`: Scripts
+  - `presets/`: Including scripts for users
+  - `prompts/`: Including scripts for inputting
+  - `vars/`: Including scripts of variables
+    - `presets/`: Variables for presets
+    - `[-A-Z_a-z]+/`: Includes scripts
+    - `[-A-Z_a-z]+`: Scripts
+  - `[-A-Z_a-z]+/`: Includes scripts
+  - `[-A-Z_a-z]+`: Scripts
 
 ## License
 
