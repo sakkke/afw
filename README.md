@@ -266,6 +266,7 @@ There is [CONTRIBUTING.md](./CONTRIBUTING.md).
 ## License
 
 `MIT`
+There is [LICENSE](./LICENSE).
 
 ## Contributors ✨
 
