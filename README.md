@@ -41,6 +41,9 @@ So we can use the components which you need, when you need them!
 
 > Done is Better Than Perfect
 
+They continue to maintain [good points](#good-points).
+They are also useful for helping developers.
+
 ## User Guides
 
 ### Work with Interactive Shell
