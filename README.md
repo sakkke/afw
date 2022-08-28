@@ -31,6 +31,10 @@ It's available in interactive shell and script.
 - Highly customizable
 - Custom entry point support
 
+We can add the desktop environment (GNOME, KDE, etc), the server application (OpenSSH, VNC, etc), and the special configuration (Kiosk system, etc) to installation process with a few commands.
+Configuration is managable as a component.
+So we can use the components which you need, when you need them!
+
 ## User Guides
 
 ### Work with Interactive Shell
