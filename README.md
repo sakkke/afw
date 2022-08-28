@@ -242,6 +242,7 @@ afw deps/foo
 afw done
 ```
 
+`#!/bin/bash` tells the editor the file type.
 This script does three steps:
 
 1. Load variables
