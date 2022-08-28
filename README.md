@@ -8,11 +8,11 @@
 
 Arch Framework ⚙️
 
-[![GitHub forks](https://img.shields.io/github/forks/sakkke/afw?style=flat-square)]()
-[![GitHub issues](https://img.shields.io/github/issues/sakkke/afw?style=flat-square)]()
-[![GitHub license](https://img.shields.io/github/license/sakkke/afw?style=flat-square)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/sakkke/afw?style=flat-square)]()
-[![GitHub stars](https://img.shields.io/github/stars/sakkke/afw?style=flat-square)]()
+[![GitHub forks](https://img.shields.io/github/forks/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/fork)
+[![GitHub issues](https://img.shields.io/github/issues/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/issues)
+[![GitHub license](https://img.shields.io/github/license/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/blob/main/LICENSE)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/stargazers)
 
 [![Discord](https://img.shields.io/discord/1012345440873742436?color=5865f2&label=Discord&logo=discord&logoColor=fff&style=flat-square)](https://discord.gg/HYKfDBMkyq)
 
