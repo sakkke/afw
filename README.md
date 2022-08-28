@@ -15,6 +15,8 @@ Arch Framework ⚙️
 
 </div>
 
+---
+
 It's Arch Framework which helps to install the new system.
 It's available in interactive shell and script.
 
