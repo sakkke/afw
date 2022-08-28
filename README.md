@@ -16,6 +16,8 @@ Arch Framework ⚙️
 
 [![Discord](https://img.shields.io/discord/1012345440873742436?color=%235865F2&label=Discord&logo=Discord&logoColor=%23FFF&style=flat-square)](https://discord.gg/HYKfDBMkyq)
 
+[![Buy Me A Pizza](https://img.shields.io/badge/Buy_Me_A_Pizza-orange?logo=buymeacoffee&logoColor=fff&style=flat-square)](https://www.buymeacoffee.com/sakkke)
+
 __ATTENTION ME!__
 
 This is very early stage project.
