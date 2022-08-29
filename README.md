@@ -10,6 +10,7 @@ Arch Framework which helps to install the new Arch Linux ⚙️
 [![GitHub license](https://img.shields.io/github/license/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/blob/main/LICENSE)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/pulls)
 [![GitHub stars](https://img.shields.io/github/stars/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/stargazers)
+[![Super-Linter Status](https://img.shields.io/github/workflow/status/sakkke/afw/Lint%20Code%20Base?label=Super-Linter&logo=githubactions&logoColor=fff&style=flat-square)](https://github.com/sakkke/afw/actions/workflows/linter.yml)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
