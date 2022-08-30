@@ -14,8 +14,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install dependencies
+        run: sudo apt-get -y install --no-install-recommends kcov
+
       - name: Install ShellSpec
         run: 'curl -fsSL https://git.io/shellspec | sh -s -- -y'
 
       - name: shellspec
-        run: shellspec
+        run: shellspec --kcov
