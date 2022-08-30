@@ -5,6 +5,7 @@
 Arch Framework which helps to install the new Arch Linux ⚙️
 
 [![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?logo=archlinux&logoColor=FFF&style=flat-square)](https://archlinux.org/)
+[![Codecov](https://img.shields.io/codecov/c/github/sakkke/afw?style=flat-square)](https://app.codecov.io/gh/sakkke/afw)
 [![GitHub forks](https://img.shields.io/github/forks/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/fork)
 [![GitHub issues](https://img.shields.io/github/issues/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/issues)
 [![GitHub license](https://img.shields.io/github/license/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/blob/main/LICENSE)
