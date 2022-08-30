@@ -22,3 +22,6 @@ jobs:
 
       - name: shellspec
         run: shellspec --kcov
+
+      - name: Codecov
+        uses: codecov/codecov-action@v3
