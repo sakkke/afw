@@ -31,3 +31,7 @@ afw() {
 
   eval "$eval_arg"
 }
+
+download() {
+  echo ok
+}
