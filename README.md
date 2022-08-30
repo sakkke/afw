@@ -65,7 +65,7 @@ They are also useful for helping developers.
 You can try the next commands __in Bash__ to install the new system with the preset named `basic`:
 
 ```bash
-eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
+eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/src/afw)"
 afw presets/basic
 ```
 
@@ -77,7 +77,7 @@ Or, you can see [how to create the your custom preset](#create-the-your-custom-p
 Add the next one-liner to your script:
 
 ```bash
-eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
+eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/src/afw)"
 ```
 
 <details>
@@ -86,7 +86,7 @@ eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
 ```bash
 #!/bin/bash
 
-eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/afw)"
+eval "$(curl https://raw.githubusercontent.com/sakkke/afw/main/src/afw)"
 
 # Device header lines
 AFW_DEVICE_HEADER_LINES=(
