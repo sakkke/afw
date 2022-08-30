@@ -1,0 +1,21 @@
+name: ShellSpec
+
+on:
+  push:
+
+jobs:
+  build:
+    name: shellspec
+    runs=on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install ShellSpec
+        run: 'curl -fsSL https://git.io/shellspec | sh -s -- -y'
+
+      - name: shellspec
+        run: shellspec
