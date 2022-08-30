@@ -21,7 +21,7 @@ jobs:
         run: 'curl -fsSL https://git.io/shellspec | sh -s -- -y'
 
       - name: shellspec
-        run: shellspec --kcov
+        run: shellspec --kcov --kcov-options '--include-path=src --include-pattern='
 
       - name: Codecov
         uses: codecov/codecov-action@v3
