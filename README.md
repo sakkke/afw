@@ -4,7 +4,7 @@
 
 Arch Framework which helps to install the new Arch Linux ⚙️
 
-Repo
+Repository
 
 [![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?logo=archlinux&logoColor=FFF&style=flat-square)](https://archlinux.org/)
 [![GitHub forks](https://img.shields.io/github/forks/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/fork)
