@@ -25,7 +25,7 @@ Dev
 Communities
 
 [![Discord](https://img.shields.io/discord/1012345440873742436?color=5865F2&label=Discord&logo=discord&logoColor=FFF&style=flat-square)](https://discord.gg/HYKfDBMkyq)
-[![IRC](https://img.shields.io/badge/IRC-%23afw-blue?logo=style=flat-square)](https://web.libera.chat/)
+[![IRC](https://img.shields.io/badge/IRC-%23afw-blue?style=flat-square)](https://web.libera.chat/)
 
 Donation
 
