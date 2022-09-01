@@ -1,10 +1,6 @@
-<div align="center">
-
 # afw
 
 Arch Framework which helps to install the new Arch Linux ⚙️
-
-Repository
 
 [![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?logo=archlinux&logoColor=FFF&style=flat-square)](https://archlinux.org/)
 [![GitHub forks](https://img.shields.io/github/forks/sakkke/afw?style=flat-square)](https://github.com/sakkke/afw/fork)
@@ -17,17 +13,11 @@ Repository
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Dev
-
 [![Codecov](https://img.shields.io/codecov/c/github/sakkke/afw?style=flat-square)](https://app.codecov.io/gh/sakkke/afw)
 [![Super-Linter Status](https://img.shields.io/github/workflow/status/sakkke/afw/Lint%20Code%20Base?label=Super-Linter&logo=githubactions&logoColor=fff&style=flat-square)](https://github.com/sakkke/afw/actions/workflows/linter.yml)
 
-Communities
-
 [![Discord](https://img.shields.io/discord/1012345440873742436?color=5865F2&label=Discord&logo=discord&logoColor=FFF&style=flat-square)](https://discord.gg/HYKfDBMkyq)
 [![IRC](https://img.shields.io/badge/IRC-%23afw-blue?style=flat-square)](https://web.libera.chat/)
-
-Donation
 
 [![Buy Me A Pizza](https://img.shields.io/badge/Buy_Me_A_Pizza-FFDD00?logo=buymeacoffee&logoColor=000&style=flat-square)](https://www.buymeacoffee.com/sakkke)
 
@@ -35,8 +25,6 @@ __ATTENTION ME!__
 
 This is very early stage project.
 So it may happen some breaking changes.
-
-</div>
 
 ---
 
