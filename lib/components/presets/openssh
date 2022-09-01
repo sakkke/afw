@@ -1,6 +1,6 @@
 #!/bin/bash
 
-eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/src/afw)"
+eval "$(curl -s https://raw.githubusercontent.com/sakkke/afw/main/lib/afw)"
 
 afw vars/basic
 afw vars/presets/openssh
